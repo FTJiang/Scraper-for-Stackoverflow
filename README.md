@@ -2,10 +2,10 @@
 Master Student majored in Computer Engineering, seeking summer intern for 2017.
 If you want to hire me or any questions, welcome to contact me by FJgithub@gmail.com
 
-HOW IT WORKS  
+## HOW IT WORKS  
 The script work by scraping the html file of the question list page and extract question title and link by xpath and can change to next page too. The data obtained will be stored in mysql database. When crawling process is finished, the script will make invert index automatically. You can make either one word query or phrase query. Randomized user-agent and proxies are used.
 
-INSTALLATION  
+## INSTALLATION  
 pip and virtualenv
 ```cmd
 $ sudo apt-get install python-pip python-dev build-essential 
@@ -48,6 +48,6 @@ beautifulsoup
 $ pip install beatifulsoup
 ```
 
-USAGE
+## USAGE
 You should change the username and password at first in scrapy.py line 30. This project is based on python 2.7.4, you can run command line: ```
 python scraper.py```
